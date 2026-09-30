@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*
+    general layout of all pages
+*/
+
+/* figure bow styles */
+figure {
+   
+}
+/* article */
+ html {
+    background-image: url(../scenes/bg_bricks.png) ;
+ }
+ body {
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+ }
+
+ header {    
+    background-color: #8ed3f9;    
+ }
+ 
+ header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+ }
+
+ body img, h1, h2 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ p#controls {
+    margin-left: 30%;
+ }
+ p {
+    margin-left: 5%;
+    margin-right: 5%;
+ }
+ footer {
+    display: block;
+    background-color: #8ed3f9;
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ 
