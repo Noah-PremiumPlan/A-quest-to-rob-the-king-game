@@ -6,11 +6,11 @@
     fist ctc project
     A Quest To Rob The King
 
-    scene 2 (map):
+    scene 10 (death screen):
     Author: Noah Lorenz
     Date: 10/1/26
 
-    filename: map.html
+    filename: {you-died.html}
 -->
 
 <meta charset="utf-8" />
@@ -18,28 +18,21 @@
 <link href="../css/reset.css" rel="stylesheet" />
 <link href="../css/styles1.css" rel="stylesheet" />
 
-
 </head>
 
 <body>
     <header>
-        <img src="../scenes/title.png" alt="game header"/>
+        <img src="../scenes/title.png" alt="game header" usemap="scene_map"/>
 
     </header>
 
     <article>
-        <h1> Navigate to the castle now?</h1>
 
-        <img src="../scenes/map.png" alt="where go?" usemap="#scene_map">
-           <h1>*click the sign*</h1>     
+        <a href="../index.html">  RESTART?  </a>
 
-            <map name="scene_map">
-           <area shape="rect" coords="177, 375, 255, 467" href="../html/Castle.html" alt="to the castle" />
-           <area shape="rect" coords="269, 401, 365, 468" href="../html/cave.html" alt="ah scary" />
-        </map>
+        <img src="../scenes/dead.png" alt="deathscreen" />
 
     </article>
-
     <footer>
         <p>Play other games made by my friends here! </p>
         <p>rylan link</p>

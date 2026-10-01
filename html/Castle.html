@@ -6,15 +6,17 @@
     fist ctc project
     A Quest To Rob The King
 
-    scene castle doors:
+    scene 4 (castle doors):
     Author: Noah Lorenz
-    Date: 9/30/26
+    Date: 10/1/26
 
     filename: {castle.html}
 -->
 
 <meta charset="utf-8" />
 <title>A Quest To Rob The King</title>
+<link href="../css/reset.css" rel="stylesheet" />
+<link href="../css/styles1.css" rel="stylesheet" />
 
 
 </head>
@@ -26,9 +28,23 @@
     </header>
 
     <article>
-        <img src="../scenes/castle.png" alt="castle doors"/>
+        <h1>You made it to the castle!</h1>
+        <img src="../scenes/castle.png" alt="castle doors" usemap="#scene_map"/>
+
+        <map name="scene_map">
+           <area shape="rect" coords="165, 332, 223, 437" href="./Chestroom.html" alt="chestroom" />
+           <area shape="rect" coords="248, 323, 319, 446" href="./chestroom.html" alt="chestroom" />
+           <area shape="rect" coords="356, 341, 410, 448" href="./fireroom.html" alt="fire" />
+        </map>
         
     </article>
+    <footer>
+        <p>Play other games made by my friends here! </p>
+        <p>rylan link</p>
+        <p>gordon link</p>
+
+
+    </footer>
 </body>
 
 

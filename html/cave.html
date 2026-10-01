@@ -6,11 +6,11 @@
     fist ctc project
     A Quest To Rob The King
 
-    scene 2 (map):
+    scene 5 (cave):
     Author: Noah Lorenz
     Date: 10/1/26
 
-    filename: map.html
+    filename: {cave.html}
 -->
 
 <meta charset="utf-8" />
@@ -23,19 +23,18 @@
 
 <body>
     <header>
-        <img src="../scenes/title.png" alt="game header"/>
-
+        <img src="../scenes/title.png" alt="game header" />
+        
     </header>
 
     <article>
-        <h1> Navigate to the castle now?</h1>
 
-        <img src="../scenes/map.png" alt="where go?" usemap="#scene_map">
-           <h1>*click the sign*</h1>     
+        <h1>Go pet the dog?</h1>
 
-            <map name="scene_map">
-           <area shape="rect" coords="177, 375, 255, 467" href="../html/Castle.html" alt="to the castle" />
-           <area shape="rect" coords="269, 401, 365, 468" href="../html/cave.html" alt="ah scary" />
+        <img src="../scenes/cave.png" alt="cave" usemap="#scene_map" />
+
+        <map name="scene_map">
+           <area shape="circle" coords="291, 288, 140" href="./you_died.html" alt="you died" />
         </map>
 
     </article>
