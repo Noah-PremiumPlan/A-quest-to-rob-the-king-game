@@ -9,7 +9,7 @@ footer, header, main, nav, section {
 
 address, article, aside, blockquote, body, cite, 
 div, dl, dt, dd, em, figcaption, figure, footer, 
-h1, h2, h3, h4, h5, h6, header, html, img, 
+h2, h1, h3, h4, h5, h6, header, html, img, 
 li, main, nav, ol, p, section, span, ul {
    margin: 0;
    padding: 0;

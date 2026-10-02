@@ -7,11 +7,11 @@
     general layout of all pages
 */
 
-/* figure bow styles */
-figure {
-   
-}
-/* article */
+
+  
+
+
+
  html {
     background-image: url(../scenes/bg_bricks.png) ;
  }
@@ -20,6 +20,8 @@ figure {
     margin-left: auto;
     margin-right: auto;
     width: 950px;
+     box-shadow: rgba(0, 12, 44, 0.4) 15px 0px 35px,
+               rgba(0, 12, 44, 0.4) -15px 0px 35px;
  }
 
  header {    
@@ -36,14 +38,13 @@ figure {
  h1 {
    font-size: 3.5em;
    font-family: "grape";
-   color: rgb(223, 171, 0);
-     
+   color: rgb(223, 171, 0);     
  }
 h2 {
-   font-size: 1.5em;
+   font-size: 2em;
    font-family: "grape";
  }
- body img, h1, h2, a {
+ body img, h2, h1, a {
     text-align: center;
     display: block;
     margin-left: auto;
