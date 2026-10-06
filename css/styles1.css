@@ -22,6 +22,8 @@
     width: 950px;
      box-shadow: rgba(0, 12, 44, 0.4) 15px 0px 35px,
                rgba(0, 12, 44, 0.4) -15px 0px 35px;
+   font-family: "grape";
+   
  }
 
  header {    
@@ -44,25 +46,45 @@ h2 {
    font-size: 2em;
    font-family: "grape";
  }
- body img, h2, h1, a {
+ img, h2, h1, a {
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     line-height: 200%;
  }
- p#controls {
-    margin-left: 30%;
- }
+ 
+ 
  p {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 1.5em;
+ }
+ 
+ article>p {
+   color: rgb(107, 64, 10);
  }
  footer {
     display: block;
     background-color: #8ed3f9;
-    margin-top: 5%;
+    margin-top: -25px;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
  }
+ article {
+   clear: both;
+   content: '';
+   display: table;
+ }
+article>img#coin {
+   float: right ;
+   width: 20%;
+}
+ul#click{
+   padding-left: 460px;
+   list-style-image: url(../scenes/Leftclick_icon.png);
+   font-size: 25px;
+}
+ 
  
