@@ -46,7 +46,28 @@ h2 {
    font-size: 2em;
    font-family: "grape";
  }
- img, h2, h1, a {
+
+ a{
+   display: contents;
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 200%;
+    color:#099ceb;
+    font-size: 35px;
+    text-decoration: none;
+ }
+ a:hover{
+   display: contents;
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 200%;
+    color:#ffc21c;
+    font-size: 35px;
+    text-decoration: none;
+ }
+ article, img, h2, h1, a {
     text-align: center;
     display: block;
     margin-left: auto;
@@ -72,6 +93,7 @@ h2 {
     padding-bottom: 10px;
     text-align: center;
  }
+ 
  article {
    clear: both;
    content: '';
@@ -82,9 +104,12 @@ article>img#coin {
    width: 20%;
 }
 ul#click{
-   padding-left: 460px;
    list-style-image: url(../scenes/Leftclick_icon.png);
    font-size: 25px;
+}
+
+li {
+ list-style-position: inside;
 }
  
  
